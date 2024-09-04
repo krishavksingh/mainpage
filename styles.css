@@ -1,14 +1,16 @@
-body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    font-family: 'Figtree', sans-serif; /* Use Figtree font */
-}
-
 @font-face {
     font-family: F1Font;
     src: url(https://www.formula1.com/etc/designs/fom-website/fonts/F1Bold/Formula1-Bold.ttf)
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'F1Font', sans-serif; /* Use Figtree font */
+}
+
+
 
 .image-container {
     position: relative;
