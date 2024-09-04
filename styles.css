@@ -11,15 +11,15 @@ body {
     height: 100vh;
     background: url('image.png');
     background-size: cover; /* Ensure the image covers the entire viewport */
-    filter: brightness(30%); /* Adjust brightness to 30% */
+    filter: brightness(20%); /* Adjust brightness to 30% */
 }
 
 .glow-text {
     position: absolute;
-    top: 18%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 25vw; /* Large text size */
+    font-size: 20vw; /* Large text size */
     color: #FF6F00; /* McLaren Papaya Orange */
     text-shadow: 
         0 0 10px #FF6F00, 
