@@ -9,7 +9,7 @@ body {
     position: relative;
     width: 100vw;
     height: 100vh;
-    background: url('images.jfif');
+    background: url('image.png');
     background-size: cover; /* Ensure the image covers the entire viewport */
     filter: brightness(30%); /* Adjust brightness to 30% */
 }
