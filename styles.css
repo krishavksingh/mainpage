@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Figtree', sans-serif; /* Use Figtree font */
+}
+
+.image-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url('images.jfif');
+    background-size: cover; /* Ensure the image covers the entire viewport */
+    filter: brightness(30%); /* Adjust brightness to 30% */
+}
+
+.glow-text {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25vw; /* Large text size */
+    color: #FF6F00; /* McLaren Papaya Orange */
+    text-shadow: 
+        0 0 10px #FF6F00, 
+        0 0 20px #FF6F00, 
+        0 0 30px #FF6F00,
+        0 0 40px #FF6F00, 
+        0 0 50px #FF6F00;
+    z-index: 2;
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 
+            0 0 10px #FF6F00, 
+            0 0 20px #FF6F00, 
+            0 0 30px #FF6F00;
+    }
+    to {
+        text-shadow: 
+            0 0 20px #FF6F00, 
+            0 0 30px #FF6F00, 
+            0 0 40px #FF6F00;
+    }
+}
