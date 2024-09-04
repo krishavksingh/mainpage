@@ -29,11 +29,11 @@ body {
     font-size: 20vw; /* Large text size */
     color: #FF6F00; /* McLaren Papaya Orange */
     text-shadow: 
+        0 0 5px #FF6F00, 
         0 0 10px #FF6F00, 
-        0 0 15px #FF6F00, 
-        0 0 20px #FF6F00,
-        0 0 25px #FF6F00, 
-        0 0 30px #FF6F00;
+        0 0 15px #FF6F00,
+        0 0 20px #FF6F00, 
+        0 0 25px #FF6F00;
     z-index: 2;
     animation: glow 1s infinite alternate;
 }
