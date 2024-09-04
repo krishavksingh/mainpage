@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    font-family: 'F1Font', sans-serif; /* Use Figtree font */
+    font-family: 'F1Font', sans-serif; /* Use F1 font */
 }
 
 
@@ -30,12 +30,12 @@ body {
     color: #FF6F00; /* McLaren Papaya Orange */
     text-shadow: 
         0 0 10px #FF6F00, 
-        0 0 20px #FF6F00, 
-        0 0 30px #FF6F00,
-        0 0 40px #FF6F00, 
-        0 0 50px #FF6F00;
+        0 0 15px #FF6F00, 
+        0 0 20px #FF6F00,
+        0 0 25px #FF6F00, 
+        0 0 30px #FF6F00;
     z-index: 2;
-    animation: glow 1.5s infinite alternate;
+    animation: glow 1s infinite alternate;
 }
 
 @keyframes glow {
