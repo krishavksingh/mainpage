@@ -18,7 +18,7 @@ body {
     height: 100vh;
     background: url('SINGH91.png');
     background-size: cover; /* Ensure the image covers the entire viewport */
-    filter: brightness(20%); /* Adjust brightness to 30% */
+    filter: brightness(80%); /* Adjust brightness to 30% */
 }
 
 .glow-text {
