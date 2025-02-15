@@ -16,7 +16,7 @@ body {
     position: relative;
     width: 100vw;
     height: 100vh;
-    background: url('image.png');
+    background: url('SINGH91.png');
     background-size: cover; /* Ensure the image covers the entire viewport */
     filter: brightness(20%); /* Adjust brightness to 30% */
 }
